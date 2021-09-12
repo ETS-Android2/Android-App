@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service.CreateServiceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/createServiceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="Create Service"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+        <TextView
+            android:id="@+id/serviceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter name of service"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/servicePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter price of service"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/createServiceRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/addName"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Add Name"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/nameAddBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/addPrice"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Add Price"
+                android:inputType="numberDecimal"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/priceAddBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/addInput"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Add Input Field"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/inputAddBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/addDoc"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Add Document"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/docAddBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_add" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/createBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREATE" />
+
+        <ImageButton
+            android:id="@+id/deleteFieldBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

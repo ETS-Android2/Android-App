@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "298946601757",
+    "firebase_url": "https://seg2105-20e07.firebaseio.com",
+    "project_id": "seg2105-20e07",
+    "storage_bucket": "seg2105-20e07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298946601757:android:09fe41918879b151d3f7f4",
+        "android_client_info": {
+          "package_name": "com.example.novigrad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298946601757-honqggeunekvdbort8pr9t075heqc0rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.novigrad",
+            "certificate_hash": "7240c14e90e67e5bfa1638da9f3fa5d927ed1a45"
+          }
+        },
+        {
+          "client_id": "298946601757-78dl6vl0671sndt1oc29nb73sogehhu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1lPkhIzhw7TQrKfnkjvv4Bn2ju8iQxdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298946601757-78dl6vl0671sndt1oc29nb73sogehhu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

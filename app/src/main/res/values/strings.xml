@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">novigrad</string>
+
+    <string name="service_novigrad">Service Novigrad</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="username">Username:</string>
+    <string name="log_in_button">Log in</string>
+    <string name="novigrad_logo">Novigrad Logo</string>
+    <string name="txt_password">Password:</string>
+
+    <string name="radio_employee">Employee</string>
+    <string name="radio_customer">Customer</string>
+    <string name="txt_createAccount">Create Account</string>
+    <string name="txt_createAccount_ON">Create Customer Account</string>
+    <string name="txt_createAccount_OFF">Create Employee Account</string>
+
+    <string name="txt_iAmA">I am a:</string>
+
+    <string name="txt_firstName">First Name:</string>
+    <string name="firstName">First Name</string>
+
+    <string name="txt_lastName">Last Name:</string>
+    <string name="lastName">Last Name</string>
+
+    <string name="txt_email">Email:</string>
+    <string name="email">Email</string>
+
+    <string name="txtpassword">Password:</string>
+
+    <string name="txt_confirmPassword">Confirm Password:</string>
+
+    <string name="registerBtn">Create Account</string>
+
+    <string name="loginText">Already have a Novigrad account? Login here</string>
+    <string name="createText">Don\'t have a Novigrad account? Sign up here</string>
+
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_getName">Name</string>
+    <string name="roleSignedIn">You are signed in as</string>
+    <string name="password">Password:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="services">SERVICES</string>
+
+    <!-- String arrays for opening time and closing time spinners -->
+    <string-array name="Timings">
+        <item>Closed</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+
+    <string-array name="SearchTime">
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+
+    <string-array name="Days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+</resources>

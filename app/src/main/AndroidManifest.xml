@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.novigrad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Branch.ServiceSearchActivity"></activity>
+        <activity android:name=".Branch.HoursSearchActivity" />
+        <activity android:name=".Branch.AddressSearchActivity" />
+        <activity android:name=".Branch.SearchActivity" />
+        <activity android:name=".Service.ServiceRequestListActivity" />
+        <activity android:name=".Branch.BranchProfileActivity" />
+        <activity android:name=".Service.CreateServiceActivity" />
+        <activity android:name=".Service.EditServiceActivity" />
+        <activity android:name=".Service.ServiceFormActivity" />
+        <activity android:name=".Service.ServiceListActivity" />
+        <activity android:name=".Service.CustomerViewBranchActivity"/>
+        <activity android:name=".Service.CustomerServiceList"/>
+        <activity android:name=".UsersView.UsersView" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Welcome.RegisterActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Welcome.LoginActivity" />
+        <activity android:name=".Welcome.WelcomeActivity" />
+    </application>
+
+</manifest>
